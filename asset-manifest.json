@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a7ade036.css",
+    "main.js": "/static/js/main.be6c6e1e.js",
+    "static/media/cate-banner2.jpg": "/static/media/cate-banner2.ada23f72b131d501aa77.jpg",
+    "static/media/cate-banner3.jpg": "/static/media/cate-banner3.d2ac233f5045eeb0e205.jpg",
+    "static/media/banner.jpg": "/static/media/banner.14eb63b08b8d941cace1.jpg",
+    "static/media/cate-banner1.jpg": "/static/media/cate-banner1.0df71bb0734a0513653d.jpg",
+    "static/media/fashion-2.jpg": "/static/media/fashion-2.764120eaaceba497e67b.jpg",
+    "static/media/man-model.jpg": "/static/media/man-model.d3967a6f18415dffd746.jpg",
+    "static/media/woman-model.jpg": "/static/media/woman-model.24b8e047ef46f75e96ae.jpg",
+    "static/media/fashion-1.jpg": "/static/media/fashion-1.20495067db6f3cd0bab5.jpg",
+    "static/media/man-shirt-1.png": "/static/media/man-shirt-1.3ad06b39ff2ff51412f5.png",
+    "static/media/jeans-woman-2.png": "/static/media/jeans-woman-2.976233e6e753e1975f47.png",
+    "static/media/woman-bag-1.png": "/static/media/woman-bag-1.f17977c1e535434c5b6c.png",
+    "static/media/woman-tshirt-1.png": "/static/media/woman-tshirt-1.4d6c19a0514e94407f37.png",
+    "static/media/shoes-1.png": "/static/media/shoes-1.b086c8f438b86cd5715f.png",
+    "static/media/jacket-man-2.png": "/static/media/jacket-man-2.dd6242b784defd85edd9.png",
+    "static/media/woman-tshirt-2.png": "/static/media/woman-tshirt-2.f27cbf6416bcf26b747f.png",
+    "static/media/socks-1.png": "/static/media/socks-1.e61a39a04f6c07b5dd8a.png",
+    "static/media/cap-1.png": "/static/media/cap-1.80748f833641b029ffaa.png",
+    "static/media/jeans-woman-1.png": "/static/media/jeans-woman-1.6ea5cd732211c95e746b.png",
+    "static/media/man-tshirt-1.png": "/static/media/man-tshirt-1.b0fa0a62651f218a7aef.png",
+    "index.html": "/index.html",
+    "main.a7ade036.css.map": "/static/css/main.a7ade036.css.map",
+    "main.be6c6e1e.js.map": "/static/js/main.be6c6e1e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a7ade036.css",
+    "static/js/main.be6c6e1e.js"
+  ]
+}
