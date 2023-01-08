@@ -1,0 +1,15 @@
+.app__featured {
+    height: calc(100vh + 20vh);
+}
+
+@media screen and (max-width: 1150px) {
+    .app__featured {
+        height: 80vh;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__featured {
+        height: 120vh;
+    }
+}

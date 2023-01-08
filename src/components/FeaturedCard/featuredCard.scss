@@ -1,0 +1,164 @@
+.app__featuredCard {
+    padding: 0 8rem 8rem 8rem;
+    display: flex;
+    flex-direction: row;
+    .app__featuredCard-wrapper {
+        flex: 1;
+        height: 181px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background: var(--color-crimson);
+        margin-right: 10px;
+        margin-bottom: 5px;
+        .featured__icon,
+        .featured__icon-center {
+            background: var(--color-golden);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .icon {
+                color: var(--color-white);
+            }
+        }
+        .featured__icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 1rem;
+            .icon {
+                font-size: 45px;
+            }
+        }
+
+        .featured__text {
+            color: var(--color-black);
+            font-weight: 700;
+        }
+    }
+    .app__featuredCard-wrapper:nth-child(1) {
+        border-top-left-radius: 5px;
+        border-bottom-left-radius: 5px;
+    }
+    .app__featuredCard-wrapper:last-child {
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+    .card__wrapper {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        .app__featuredCard-wrapper {
+            display: flex;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: row;
+            padding: 1rem 2rem;
+            border-top-left-radius: 0;
+            border-bottom-left-radius: 0;
+            .featured__icon-center {
+                width: 50px;
+                height: 50px;
+                margin-right: 0.75rem;
+                .icon {
+                    font-size: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .app__featuredCard {
+        padding: 0 3rem 8rem 3rem;
+        .app__featuredCard-wrapper {
+            .featured__icon {
+                width: 50px;
+                height: 50px;
+                .icon {
+                    font-size: 30px;
+                }
+            }
+
+            .featured__text {
+                text-align: center;
+                font-size: 12px;
+            }
+        }
+        .card__wrapper {
+            .app__featuredCard-wrapper {
+                .featured__icon-center {
+                    width: 50px;
+                    height: 40px;
+                    margin-right: 0.2rem;
+
+                    .icon {
+                        font-size: 25px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .app__featuredCard {
+        margin: 0 10px;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        .app__featuredCard-wrapper {
+            height: 100px;
+            flex-direction: column;
+            margin: 5px;
+            padding: 15px 0;
+            .featured__icon,
+            .featured__icon-center {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .featured__icon {
+                width: 50px;
+                height: 50px;
+                .icon {
+                    font-size: 30px;
+                }
+            }
+        }
+        .app__featuredCard-wrapper:first-child {
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+            border-bottom-left-radius: 0;
+        }
+        .app__featuredCard-wrapper:last-child {
+            border-top-right-radius: 0;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        .card__wrapper {
+            flex-direction: row;
+            .app__featuredCard-wrapper {
+                flex-direction: row;
+                padding: 10px;
+                margin: 5px;
+                border-top-left-radius: 0;
+                border-top-right-radius: 0;
+                border-bottom-left-radius: 0;
+                border-bottom-right-radius: 0;
+                .featured__icon-center {
+                    width: 30px;
+                    height: 30px;
+                    margin-right: 0.75rem;
+                    .icon {
+                        font-size: 30px;
+                    }
+                }
+                .featured__text {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

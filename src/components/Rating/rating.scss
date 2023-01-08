@@ -1,0 +1,16 @@
+.star__rating {
+    margin-right: 5px;
+    button {
+        background-color: transparent;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        font-size: 18px;
+    }
+    .on {
+        color: var(--color-orange);
+    }
+    .off {
+        color: #ccc;
+    }
+}

@@ -1,25 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Content from './container/Content/Content';
+import Categories from './container/Categories/Categories';
+import Featured from './container/Featured/Featured';
+import Header from './container/Header/Header';
+import InlineCategory from './components/InlineCategory/InlineCategory';
+import Footer from './container/Footer/Footer';
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    return (
+        <div className='App'>
+            <Header />
+            <Featured />
+            <Categories />
+            <Content />
+            {/* <InlineCategory /> */}
+            <Footer />
+        </div>
+    );
 }
 
 export default App;
